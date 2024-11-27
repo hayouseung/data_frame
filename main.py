@@ -1,4 +1,4 @@
-# 1번 예제
+# 예제 1
 import pandas as pd
 
 dir = "./data/"
@@ -8,7 +8,7 @@ data_columns = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', '
 data = pd.read_csv(filepath, names=data_columns)
 print(data.head(5))
 
-# 2번 예제
+# 예제 2
 import pandas as pd
 
 from sklearn.preprocessing import MinMaxScaler
